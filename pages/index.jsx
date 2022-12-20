@@ -14,7 +14,6 @@ function Home () {
           makes a request to pages/post/[pid]/[comment].js
         </Link>
       </li>
-      <li></li>
     </ul>
   )
 }

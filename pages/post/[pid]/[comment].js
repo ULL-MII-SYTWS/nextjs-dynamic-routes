@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 const Comment = () => {
@@ -15,6 +16,7 @@ const Comment = () => {
         })}
       </ul>
     </li>
+    <li><Link href="/"><a>Home</a></Link></li>
   </ul>
 }
 
