@@ -10,7 +10,8 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export -o docs && touch docs/.nojekyll"
+    "build": "next build && next export -o docs && touch docs/.nojekyll",
+    "deploy": "npm run build && git add docs && git commit -m 'deploy' && git push origin main"
   },
   "keywords": [],
   "author": "Casiano Rodriguez Leon <crguezl@ull.edu.es> (https://crguezl.github.io/)",
