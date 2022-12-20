@@ -48,11 +48,12 @@ module.exports = {
 }
 ```
 
+The behavior is different from the GitHub deployed page and the local: true dynamicity is lost.
 
 
 ## Path
 
 ```
 ➜  nextjs-dynamic-routes git:(main) pwd
-/Users/casianorodriguezleon/campus-virtual/2223/learning/nextjs-learning/nextjs-dynamic-routes
+$HOME/campus-virtual/2223/learning/nextjs-learning/nextjs-dynamic-routes
 ```
