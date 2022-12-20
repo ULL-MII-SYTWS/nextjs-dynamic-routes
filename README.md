@@ -50,6 +50,9 @@ module.exports = {
 
 The behavior is different from the GitHub deployed page and the local: true dynamicity is lost.
 
+## 404
+
+We have added a custom 404 page to the project. See <https://nextjs.org/docs/advanced-features/custom-error-page>
 
 ## Path
 
