@@ -10,7 +10,9 @@ const Post = () => {
   const query = router.query
   const { pid } = router.query
 
-  return <ul>
+  return <div>
+    <h1>Processed by pages/post/[pid].js</h1>
+    <ul>
     <li>Post: {pid}</li>
     <li>Query:
       <ul>
@@ -21,6 +23,7 @@ const Post = () => {
     </li>
     <li><Link href="/"><a>Home</a></Link></li>
   </ul>
+    </div>
 }
 
 export default Post

@@ -6,7 +6,9 @@ const Comment = () => {
   console.log(router.query)
   const { pid, comment } = router.query
 
-  return <ul>
+  return <div>
+    <h1>Processed by pages/post/[pid]/[comment].js</h1>
+    <ul>
     <li>pid: {pid}</li>
     <li>comment: {comment}</li>
     <li>Query:
@@ -18,6 +20,7 @@ const Comment = () => {
     </li>
     <li><Link href="/"><a>Home</a></Link></li>
   </ul>
+    </div>
 }
 
 export default Comment
