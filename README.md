@@ -1,5 +1,5 @@
 
-## Setup
+## Running locally
 
 ```
 npm install
@@ -15,7 +15,7 @@ See:
 
 1. The lab introduction to the jam stack: <https://dmsi.netlify.app/practicas/nextjs#introduction-to-the-jam-stack-with-nextjs-react-rest-and-netlify>
 2. <https://nextjs.org/learn/foundations/from-react-to-nextjs>
-1. <https://nextjs.org/docs/routing/dynamic-routes>
+3. <https://nextjs.org/docs/routing/dynamic-routes>
 
 ## GH deployment with next export
 
