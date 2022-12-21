@@ -13,17 +13,18 @@ const Post = () => {
   return <div>
     <h1>Processed by pages/post/[pid].js</h1>
     <ul>
-    <li>Post: {pid}</li>
-    <li>Query:
-      <ul>
-        {Object.entries(query).map(([key, value]) => {
-          return <li key={key}>{key}: {value}</li>
-        })}
-      </ul>
-    </li>
-    <li><Link href="/"><a>Home</a></Link></li>
-  </ul>
-    </div>
+      <li>Post: {pid}</li>
+      <li>Pathname: {router.pathname}</li>
+      <li>Query:
+        <ul>
+          {Object.entries(query).map(([key, value]) => {
+            return <li key={key}>{key}: {value}</li>
+          })}
+        </ul>
+      </li>
+      <li><Link href="/"><a>Home</a></Link></li>
+    </ul>
+  </div>
 }
 
 export default Post
