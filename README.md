@@ -9,7 +9,7 @@ npm run dev
 Then visit: http://localhost:3000/nextjs-dynamic-routes
 
 
-## Next.js dynmaic routes references
+## Next.js dynamic routes references
 
 See:
 
